@@ -1,0 +1,26 @@
+.bg-left {
+	width: 314px;
+	height: 554px;
+
+	position: absolute;
+
+	left: -50px;
+
+	border-radius: 0 0 250px 200px;
+
+	background: linear-gradient(to bottom, #c340fe, #ae3dfd, #9d3cff, #913bfe);
+}
+
+.bg-right {
+	width: 264px;
+	height: 484px;
+
+	position: absolute;
+
+	right: 0;
+	bottom: 0;
+
+	border-radius: 400px 00px 0 0;
+
+	background: #f9f4fa;
+}

@@ -1,0 +1,333 @@
+.content {
+	width: 100%;
+	height: 100%;
+	
+	position: absolute;
+	z-index: 99;
+
+	display: flex;
+	justify-content: center;
+}
+
+.position {
+	width: 820px;
+	
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.smartphone {
+	width: 248px;
+	height: 510px;
+
+	background: #f5f3f8;
+
+	border: 8px solid #fff;
+	border-radius: 20px;
+	box-shadow: 20px 25px 30px #e8e8ea;
+
+}
+
+.perfil-info {
+	width: 100%;
+	height: 66px;
+
+	position: relative;
+
+	border-radius: 10px 10px 0 0;
+
+	background: linear-gradient(to right, #8c3bfc, #9c3dfd, #a938fc, #bf40ff, #cc41fe, #d944fe, #df44ff);
+}
+
+.som {
+	width: 128px;
+	height: 21px;
+
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+
+	border-radius: 0 0 10px 10px;
+
+	background: #fff;
+}
+
+.perfil {
+	width: 100%;
+	height: 41px;
+
+	position: absolute;
+	bottom: 0;
+
+	display: flex;
+	align-items: center;
+
+	padding-left: 15px;
+}
+
+.perfil .back {
+	width: 9px;
+	height: 9px;
+
+	opacity: 0.8;
+
+	border-left: 2px solid #fff;
+	border-top: 2px solid #fff;
+
+	transform: rotate(-45deg);
+}
+
+.perfil .image {
+	width: 26px;
+	height: 26px;
+
+	border-radius: 26px;
+	border: 1px solid #fff;
+
+	margin-left: 8px;
+
+	background: url("../images/avatar.jpg") no-repeat center center / cover
+}
+
+.perfil .names {
+	width: 150px;
+	padding-left: 8px;
+}
+
+.perfil .names h2 {
+	font-size: 10px;
+	font-weight: 700;
+
+	color: #fff;
+}
+
+.perfil .names h3 {
+	font-size: 8px;
+	font-weight: normal;
+
+	margin-top: 2px;
+
+	color: #f5f3f8;
+}
+
+.perfil .three-points div{
+	width: 2px;
+	height: 2px;
+
+	opacity: 0.8;
+
+	background: #fff;
+
+	margin-top: 2px;
+}
+
+.description {
+	width: 446px;
+	height: 186px;
+}
+.description h1 {
+	color: #402656;
+}
+
+.description p {
+	width: 400px;
+	margin-top: 35px;
+
+	color: #a3a3a5;
+
+	line-height: 24px;
+}
+
+.conversation {
+	padding: 0 10px;
+}
+
+.conversation .ballon-left {
+	width: 128px;
+
+	border-radius: 8px;
+
+	background: #ede4f5;
+
+	margin-top: 12px;
+
+	display: flex;
+	align-items: center;
+	padding: 10px 10px;
+}
+
+.conversation .ballon-left p {
+	font-size: 8px;
+
+	color: #c19dda;
+}
+
+.conversation .content-images {
+	margin-top: 10px;
+
+	display: flex;
+	justify-content: flex-end;
+}
+
+.conversation .ballon-images {
+	width: 130px;
+	height: 42px;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.conversation .ballon-images .image {
+	width: 40px;
+	height: 100%;
+
+	background: #8b8891;
+
+	border-radius: 8px;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.conversation .ballon-images .img1 {
+	background-image: url("../images/dog-image-1.jpg");
+}
+.conversation .ballon-images .img2 {
+	background-image: url("../images/dog-image-2.jpg");
+}
+.conversation .ballon-images .img3 {
+	background-image: url("../images/dog-image-3.jpg");
+}
+
+.conversation .ballon-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.conversation .ballon-right p {
+	width: 130px;
+
+	font-size: 8px;
+
+	margin-top: 10px;
+
+	background: #fff;
+	color: #8b8891;
+
+	display: flex;
+	align-items: center;
+
+	padding: 10px 10px;
+
+	border-radius: 8px;	
+}
+
+.content-value {
+	height: 70px;
+
+	margin-top: 10px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.value-item {
+	width: 160px;
+
+	position: relative;
+
+	background: linear-gradient(to right, #e446ff, #d841fe, #c43bfa, #b23fff, #a63cff, #973bfe, #8a35ff);
+
+	border-radius: 8px;
+
+	padding: 10px 10px;
+
+	display: flex;
+	align-items: center;
+}
+
+.value-item .value-circle {
+	width: 12px;
+	height: 12px;
+
+	border-radius: 12px;
+	border: 1px solid #fff;
+
+	opacity: 0.8;
+}
+
+.value-item .value-text {
+	font-size: 8px;
+
+	color: #fff;
+
+	opacity: 0.8;
+
+	margin-left: 8px;
+}
+
+.value-item .value-dollar {
+	position: absolute;
+	right: 10px;
+
+	font-size: 12px;
+	font-weight: 700;
+
+	color: #fff;
+}
+
+.content-message {
+	width: 215px;
+	height: 30px;
+
+	position: relative;
+
+	padding-left: 20px;
+
+	background: #fff;
+
+	border-radius: 18px;
+
+	display: flex;
+	align-items: center;
+
+	margin-top: 10px;
+}
+
+.content-message span {
+	font-size: 8px;
+
+	color: #dcdedd;
+}
+
+.content-message .message-send {
+	width: 24px;
+	height: 24px;
+
+	position: absolute;
+	right: 5px;
+
+	border-radius: 24px;
+
+	background: #3d2352;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-message .message-send .seta {
+	width: 6px;
+	height: 6px;
+
+	position: relative;
+	left: -1px;
+
+	border-top: 1.5px solid #fff;
+	border-left: 1.5px solid #fff;
+
+	transform: rotate(130deg);
+}

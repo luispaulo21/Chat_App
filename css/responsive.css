@@ -1,0 +1,48 @@
+@media (max-width: 375px) {
+	.container {
+		height: auto;
+	}
+	.bg-left {
+		width: 284px;
+		height: 496px;
+
+		left: -120px;
+	}
+
+	.bg-right {
+		width: 187px;
+		height: 433px;
+
+		top: 340px;
+
+	}
+
+	.position {
+		margin-top: 60px;
+
+		flex-direction: column;
+	}
+
+	.description {
+		width: 302px;
+
+		text-align: center;
+
+		margin-top: 50px;
+	}
+
+	.description h1 {
+		font-size: 32px;
+	}
+
+	.description p {
+		width: 298px;
+
+		margin-top: 10px;
+
+		font-size: 12px;
+		line-height: 18px;
+
+		text-align: center;
+	}
+}
